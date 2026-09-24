@@ -13,6 +13,8 @@
 #       ./builder.sh N
 #   where N is a positive integer representing the number of chunks to concatenate and build the graph from.
 #
+#   Author: Matteo Loporchio
+#
 
 set -euo pipefail
 

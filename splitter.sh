@@ -8,6 +8,8 @@
 #       ./splitter.sh <path_to_transaction_list>
 #   where <path_to_transaction_list> is the path to the original Bitcoin transaction list file.
 #
+#   Author: Matteo Loporchio
+#
 
 set -euo pipefail
 

@@ -3,6 +3,7 @@ __pycache__/
 bin/
 chunks/
 graph/
+graph_s/
 logs/
 results/
 target/

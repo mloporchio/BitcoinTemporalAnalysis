@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 #   This script builds the Bitcoin Payment Graph starting from multiple transaction lists.
+#
 #   Author: Matteo Loporchio
 #
 
@@ -19,7 +20,7 @@ EL_BUILDER="${BIN_DIR}/pg_el_builder"
 EL_BUILDER_LOG="${LOG_DIR}/pg_el_builder.log"
 EL_BUILDER_ERR="${LOG_DIR}/pg_el_builder.err"
 EL_SORTER="${BIN_DIR}/edge_sorter"
-MEMORY_LIMIT="150000" # Memory limit for the edge sorter.
+MEMORY_LIMIT="150000" # Memory limit for the edge sorter (in MiB).
 WG_BUILDER="./target/release/wg_native"
 WG_BUILDER_LOG="${LOG_DIR}/webgraph_builder.log"
 WG_BUILDER_ERR="${LOG_DIR}/webgraph_builder.err"

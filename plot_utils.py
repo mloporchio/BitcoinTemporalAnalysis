@@ -1,4 +1,7 @@
 """
+This module contains utility functions for plotting and visualization 
+using the Matplotlib and Seaborn Python libraries.
+
 Author: Matteo Loporchio
 """
 

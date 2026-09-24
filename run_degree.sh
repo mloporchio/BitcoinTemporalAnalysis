@@ -1,4 +1,11 @@
 #!/bin/bash
+#   
+#   This script computes the in-degree and out-degree distribution of the graphs built by run_builder.sh.
+#
+#   Author: Matteo Loporchio
+#
+
+set -euo pipefail
 
 FIRST_CHUNK=21
 LAST_CHUNK=28

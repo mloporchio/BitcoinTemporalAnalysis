@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+bin/
+chunks/
+graph/
+logs/
+results/
+target/
+tmp/
+Cargo.lock

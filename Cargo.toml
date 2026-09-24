@@ -1,0 +1,17 @@
+[build]
+rustflags = ["-C", "target-cpu=native"]
+
+[package]
+name = "wg_native"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+webgraph = "0.6"
+anyhow = "1"
+memmap2 = "0.9"
+tempfile = "3"
+
+[profile.release]
+opt-level = 3
+lto = true

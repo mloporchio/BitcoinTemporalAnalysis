@@ -1,8 +1,5 @@
-[build]
-rustflags = ["-C", "target-cpu=native"]
-
 [package]
-name = "wg_native"
+name = "wg_tools"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,6 +8,8 @@ webgraph = "0.6"
 anyhow = "1"
 memmap2 = "0.9"
 tempfile = "3"
+lender = "0.6"
+clap = { version = "4", features = ["derive"] }
 
 [profile.release]
 opt-level = 3

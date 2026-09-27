@@ -1,6 +1,6 @@
 __pycache__/
 .venv/
-bin/
+/bin/
 chunks/
 graph/
 graph_s/

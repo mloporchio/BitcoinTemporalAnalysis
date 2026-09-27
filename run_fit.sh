@@ -19,7 +19,7 @@ set -euo pipefail
 
 START_CHUNK=1
 END_CHUNK=28
-METRICS=("indegree" "outdegree")
+METRICS=("indegree")
 PLFIT_EXEC="~/plfit-1.0.1/build/src/plfit"
 TEMP_DIR="tmp"
 RESULT_DIR="results"

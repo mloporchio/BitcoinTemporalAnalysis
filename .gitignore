@@ -2,6 +2,7 @@ __pycache__/
 .venv/
 /bin/
 chunks/
+download/
 graph/
 graph_s/
 logs/
